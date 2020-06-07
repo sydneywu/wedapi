@@ -9,9 +9,9 @@
 // Unless required by applicable law or agreed to in writing, software
 syntax = "proto3";
 
-option go_package = "githhub.com/sydneywu/wedapi/api/photographer";
+option go_package = "githhub.com/sydneywu/wedapi";
 
-package photographer;
+package main;
 
 
 import "google/protobuf/timestamp.proto";

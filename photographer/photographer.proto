@@ -10,6 +10,9 @@
 syntax = "proto3";
 
 option go_package = "githhub.com/sydneywu/wedapi";
+option java_multiple_files = true;
+option java_package = "com.weddingpencil.photographer";
+option java_outer_classname = "WedPhotographerProto";
 
 package photographer;
 

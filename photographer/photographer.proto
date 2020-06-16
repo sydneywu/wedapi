@@ -15,15 +15,15 @@ option java_package = "com.weddingpencil.photographer";
 option java_outer_classname = "WedPhotographerProto";
 
 package photographer;
-
-
 import "google/protobuf/timestamp.proto";
+
 
 message Photographer {
   int64 id = 1;
   string name = 2;
   string description = 3;
-  google.protobuf.Timestamp dateFounded = 4;
+  google.protobuf.Timestamp startDate = 4;
+
 }
 
 service PhotographerService {
